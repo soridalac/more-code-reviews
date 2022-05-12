@@ -1,5 +1,5 @@
 import pytest
-from functions.two_sum import twoSum
+from .two_sum import twoSum
 
 def test_returns_0_1_for_2_7_11_15_with_target_9():
     # Arrange
